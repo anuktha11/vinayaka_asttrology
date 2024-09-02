@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Body from './components/Body';
 import Content from './components/Content';
 import Footer from './components/Footer';
-// import Signup from './components/Signup';
-// import Login from './components/Login';
+import Signup from './components/Signup';
+import Login from './components/Login';
 import './App.css';
 import '../src/components/style.css';
  
@@ -15,14 +15,15 @@ function App() {
     <Router>
       <div className="app-container">
         <Header />
+        {/* <Body />
+        <Content /> */}
         <div className="main-content">
           <Routes>
-            {/* <Route path="/signup" element={<Signup />} />
-            <Route path="/login" element={<Login />} /> */}
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
              <Route path="/" element={
               <>
-                <Body />
-                <Content />
+               
                 
               </>
             } />
