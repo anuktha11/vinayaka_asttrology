@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import Body from './components/Body';
-import Content from './components/Content';
+// import Body from './components/Body';
+// import Content from './components/Content';
 import Footer from './components/Footer';
 import Signup from './components/Signup';
 import Login from './components/Login';
