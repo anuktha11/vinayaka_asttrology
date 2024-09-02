@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vinayaka_asttrology/static/css/main.0276db57.css",
+    "main.js": "/vinayaka_asttrology/static/js/main.dd7d7d42.js",
+    "static/media/vid.mp4": "/vinayaka_asttrology/static/media/vid.1d2e2d75884f2c9c8d0b.mp4",
+    "index.html": "/vinayaka_asttrology/index.html",
+    "main.0276db57.css.map": "/vinayaka_asttrology/static/css/main.0276db57.css.map",
+    "main.dd7d7d42.js.map": "/vinayaka_asttrology/static/js/main.dd7d7d42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0276db57.css",
+    "static/js/main.dd7d7d42.js"
+  ]
+}
