@@ -1,0 +1,517 @@
+html, body {
+    height: 100%;
+    margin: 0;
+   }
+.brand-name {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Keep the text bold */
+    color: #fff; /* Set the text color to white or any preferred color */
+}
+a{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bg-deep-blue {
+    background-color: #2C3E50;
+}
+
+.text-deep-blue {
+    color: #2C3E50;
+}
+
+.btn-golden-yellow {
+    background-color:#7B3F00 ;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-golden-yellow {
+    color: #F39C12;
+}
+
+.bg-ivory {
+    background-color: #F7F6F2;
+}
+
+.text-ivory {
+    color: #F7F6F2;
+}
+
+.btn-rich-maroon {
+    background-color: #C0392B;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-rich-maroon {
+    color: #C0392B;
+}
+
+.btn-olive-green {
+    background-color: #808000;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-soft-red {
+    background-color:  #F39C12;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+.bg-hero {
+     background-size: cover;
+    background-position: center;
+    color: #F7F6F2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+    font-family: 'Garamond', serif;
+}
+
+.hero-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    font-family: 'Garamond', serif;
+    font-size: 24px;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Footer */
+.social-icons a {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #F39C12;
+}
+
+/* Language Selector */
+.language-selector {
+    width: 150px;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+body {
+    background: linear-gradient(to right, #f8a319, #e93723);
+    color: #ffffff; /* Text color to contrast with the gradient */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #ffffff; /* Button background color */
+    color: #C0392B; /* Button text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #F39C12;
+    color: #ffffff;
+}
+/* Responsive Hero Section */
+.hero-section {
+    padding: 3rem 1rem; /* Adjust padding for smaller screens */
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2rem; /* Adjust heading size for smaller screens */
+}
+
+.hero-section p {
+    font-size: 1rem; /* Adjust paragraph size for smaller screens */
+}
+ /* Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8a319, #e93723);
+
+}
+
+.header, .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero-section {
+    padding: 3rem 1rem;
+    background: linear-gradient(to right, #f8a319, #e93723);
+
+    text-align: center;
+}
+ 
+
+.hero-section h1 {
+    font-size: 2rem; /* Adjust heading size for smaller screens */
+    font-family: 'Garamond', serif;
+}
+
+.hero-section p {
+    font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #1064be;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the video */
+    padding: 1rem;
+}
+
+.vid video {
+    width: 100%; /* Make the video responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 600px; /* Optional: Set a max width for the video */
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: 'Garamond', serif;
+}
+
+.card-text {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+footer {
+    padding: 3rem 2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.social-icons a {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #F39C12;
+}
+
+header {
+    padding: 2rem;
+    background-color: #095ab1;
+    color: white;
+    text-align: center;
+}
+
+.brand-name {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Keep the text bold */
+    color: #fff; /* Set the text color to white or any preferred color */
+}
+
+.language-selector {
+    width: 150px;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+/* Color Themes */
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-deep-blue {
+    background-color: #2C3E50;
+}
+
+.text-deep-blue {
+    color: #2C3E50;
+}
+
+.btn-golden-yellow {
+    background-color:#7B3F00;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-golden-yellow {
+    color: #F39C12;
+}
+
+.bg-ivory {
+    background-color: #F7F6F2;
+}
+
+.text-ivory {
+    color: #F7F6F2;
+}
+
+.btn-rich-maroon {
+    background-color: #C0392B;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-rich-maroon {
+    color: #C0392B;
+}
+
+.btn-olive-green {
+    background-color: #808000;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-soft-red {
+    background-color:  #F39C12;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .row {
+        display: block;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+        display: inline-block;
+    }
+
+    header {
+        padding: 1rem;
+        position: sticky;
+        top: 0; /* Set the sticky position */
+    z-index: 10;
+    }
+
+    .brand-name {
+        font-size: 1.5rem;
+    }
+
+    .language-selector, .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+         margin-right: auto;
+         overflow: hidden;
+    }
+}
+/* Content Section Styles */
+.container {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+/* Responsive Layout Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem; 
+    }
+
+    .card-text {
+        font-size: 0.875rem;  
+    }
+}
+/* Signup.css */
+.form-box {
+    background-color: ivory;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .form-control-custom {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-label {
+    color: black;
+  }
+  
+  .form-control-custom {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+    /* Reduce the font size of the brand name */
+    .brand-name {
+        font-size: 1rem; /* Adjust the size as needed */
+    }
+
+    /* Move the login button to the left */
+    .d-flex.align-items-center {
+        justify-content: flex-start; /* Align the login button to the left */
+    }
+
+    /* Additional adjustments for the login button */
+    .btn-outline-light {
+        margin-left: 1rem; /* Adjust the margin as needed */
+    }
+}
+/* Ensure the full height for html and body */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Flexbox layout to push footer to bottom */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Allow main content to grow and push footer to the bottom */
+  .main-content {
+    flex: 1;
+  }
+  
+  /* Style for the footer */
+  .footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Responsive design with media queries */
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .footer {
+      font-size: 16px;
+    }
+  }
+ /* Ensure these components are not always visible */
+.chat-component, .call-component {
+    display: none;
+  }
+  
+  .chat-component.show, .call-component.show {
+    display: block;
+  }
+  
