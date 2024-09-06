@@ -48,7 +48,7 @@ function Footer() {
     <div className='fot'>
       <footer className="text-center p-4 bg-deep-blue text-ivory">
         <p>&copy; 2024 Sree Vinayaka Jyothisha Kendra App <br>
-        </br> Connect with us:8921451177</p>
+        </br> Connect with us:9443808229</p>
         {/* <div className="social-icons">
             <a href="#" className="text-ivory mx-2"><i className="fab fa-facebook-f"></i></a>
             <a href="#" className="text-ivory mx-2"><i className="fab fa-twitter"></i></a>

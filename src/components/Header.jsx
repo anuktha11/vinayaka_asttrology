@@ -3,7 +3,7 @@ import videoSrc from './vid.mp4';
 
 function Header() {
   const handleWhatsAppChat = () => {
-    window.open('https://wa.me/+918921451177', '_blank');
+    window.open('https://wa.me/+919443808229', '_blank');
   };
 
   return (
@@ -18,7 +18,7 @@ function Header() {
           <span className="brand-name">Sree Vinayaka Jyothisha Kendra</span>
         </a>
         <div style={{ marginRight: "50px" }} className="ml-auto d-flex align-items-center">
-          <i className="fas fa-phone-alt mr-2"></i>8921451177
+          <i className="fas fa-phone-alt mr-2"></i>9443808229
         </div>
       </header>
       <div>
@@ -31,7 +31,7 @@ function Header() {
             <button className="btn btn-olive-green mx-2 mb-3" onClick={handleWhatsAppChat}>
               <i className="fas fa-comments mr-2"></i>Chat with Astrologer
             </button>
-            <a href="tel:+918921451177" className="btn btn-golden-yellow mx-2 mb-3">
+            <a href="tel:+919443808229" className="btn btn-golden-yellow mx-2 mb-3">
               <i className="fas fa-phone-alt mr-2"></i>Call Astrologer Now
             </a>
           </div>
